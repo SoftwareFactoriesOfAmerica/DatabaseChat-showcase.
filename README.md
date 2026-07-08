@@ -11,6 +11,11 @@ DatabaseChat combines:
 • Blazor
 • OpenAI integration
 
+Experience with:
+• All .NET Versions including .NET 10 (current)
+  starting with the first ASP, then switched to .NET beta with extensive experience all versions including Core
+  helping to migrate from .NET 4.8 to .NET 10
+
 My passion is helping organizations:
 • Modernize legacy applications
   Migrating older versions of .NET to current .NET, for example: .NET 10
