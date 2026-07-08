@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DatabaseChat Showcase</title>
+
+    <link rel="stylesheet" href="./lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./styles/app.css" />
+    <link rel="stylesheet" href="./styles/site.css" />
+
+    <link rel="stylesheet" href="styles/dashboard-theme-modern.css" />
+    <link rel="stylesheet" href="styles/transform-modern.css" />
+    <link rel="stylesheet" href="styles/final.css" />
+
+    <link rel="icon" type="image/png" href="./favicon.png" />
+
+    <script src="./scripts/reflex.js" type="text/javascript"></script>
+    <script src="./scripts/spinner.js" type="text/javascript"></script>
+</head>
+<body>
+    <!-- Loading overlay (matches original MainLayout) -->
+    <div id="loadingOverlay" class="loading-overlay" style="display:none;">
+        <div class="spinner"></div>
+        <div class="loading-text">Preparing AI-Powered Solutions...</div>
+    </div>
+
+    <div class="dashboard-bg">
+        <aside class="left-nav">
+            <div class="thumbs">
+				<div class="hero-header-angle">
+					<a class="copyright-angle" href="#" style="cursor: default;">
+						<img src="images/logo/SfoA1.png" width="32" height="32" alt="Logo" class="me-2 rounded-circle" />
+					</a>
+				</div>
+				<div></div>
+				<div class="gold-divider"></div>
+				
+				<div class="nav-item px-3 selected-image"
+					 data-selected="TheRevolution"
+					 data-caption="Every technological revolution creates winners. We help organizations win!"
+					 style="cursor:pointer;">
+					<span style="color: #f0c84b; font-size:26px;">Home</span>
+				</div>
+
+				<div class="nav-item px-3"
+					 data-selected="DatabaseChat-settings"
+					 data-caption="setup your private database connections."
+					 style="cursor:pointer;">
+					<span style="color: #f0c84b; font-size:26px;">Settings</span>
+				</div>
+
+				<div class="nav-item px-3"
+					 data-selected="DatabaseChat-aibuilder"
+					 data-caption="AI Builder, helps build Natural Language."
+					 style="cursor:pointer;">
+					<span style="color: #f0c84b; font-size:26px;">AI Builder</span>
+				</div>
+
+				<div class="nav-item px-3"
+					 data-selected="DatabaseChat-chat"
+					 data-caption="Execute NLP for your results."
+					 style="cursor:pointer;">
+					<span style="color: #f0c84b; font-size:26px;">Chat</span>
+				</div>
+
+				<div class="nav-item px-3"
+					 data-selected="sfoa-site"
+					 data-caption="Download from https://www.softwarefactoriesofamerica.com and select 'ZIP Package'"
+					 style="cursor:pointer;">
+					<span style="color: #f0c84b; font-size:26px;">Download from</span>
+				</div>
+
+            </div>
+        </aside>
+
+        <main class="dashboard-main">
+			<div class="hero-section">
+				<section class="hero-intro">
+					<div>
+						<div class="hero-eyebrow">40+ Years of Enterprise Software Expertise</div>
+
+						<h4>DatabaseChat Meets Innovation and removes hallucinations in SQL generation.</h4>
+
+						<div id="hero-caption" class="hero-caption"></div>
+					</div>
+
+					<button class="hero-button"
+							onclick='showSection("Home", "Software Factories helps organizations modernize applications, adopt AI responsibly, and prepare for what is next.")'>
+						Learn More
+					</button>
+				</section>
+				<!-- Home content -->
+				
+				<div class="hero-photo-container">
+					<img id="heroImage" class="clickable-image hero-photo-img" src="./images/logo/Home.png" title="Software Factories helps organizations modernize, adopt AI responsibly, and prepare for what is next." alt="Welcome Home." />
+				</div>
+			</div>
+            </div>
+        </main>
+    </div>
+
+    <script src="./scripts/site.js"></script>
+</body>
+</html>
